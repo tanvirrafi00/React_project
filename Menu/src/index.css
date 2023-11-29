@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f8fafc;
+}
+.container {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.food_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+.food_img {
+  width: 367px;
+  height: 240px;
+  flex-shrink: 0;
+}
+.food_card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+
+  max-width: 368px;
+}
+.food_description {
+  padding: 24px;
+}
+.food_info {
+  color: #64748b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  padding-top: 24px;
+  max-width: 312px;
+}
+.food_name {
+  text-align: center;
+  color: #0f172a;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 105.263% */
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.food_card_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price {
+  display: inline-flex;
+  padding: 4px 7.95px 4px 8px;
+  align-items: flex-start;
+  border-radius: 4px;
+  background: #f59e0b;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  letter-spacing: 1px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.title {
+  color: #0f172a;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 100% */
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.underline {
+  width: 112px;
+  height: 4px;
+  flex-shrink: 0;
+  background: #f59e0b;
+}
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+.btn {
+  border-radius: 4px;
+  background: #f59e0b;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  padding: 6px 12px;
+  align-items: flex-start;
+}
